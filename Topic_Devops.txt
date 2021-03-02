@@ -1,0 +1,54 @@
+Day 1:
+Devops --automatics
+dev (deve+testers)+ ops ( support team )
+
+SDLC life cycle  
+p1--->p2--->
+
+drawbacks
+--late deliverable 
+--change mgt 
+--feequent changes
+-- less customer intercation 
+
+agile module
+
+st 2-3
+online shopping portal
+net banking --3 weeks
+meeting otp
+2 week otp iteration 
+--deploy 
+
+continu  develop ---- production op team friday  spring boot  ---windows/unix
+friday---credit card ----c# ----windows
+friday --- gpay----angular--- windows +packges
+friday --- paytm--- React JS  ---scanner 
+dev ------- op stabli  , manual
+
+Devops came in pictures.
+
+Stages
+1.source code mgmt /version ------ central repo   --  avali  remote reposi
+versions github , onedrive ,git tool
+
+2. build ---exe --  build tool jar/war maven,ant, gradle
+3.con testing testng,selenium,
+3. con deploym ---puppet ,ansible,docker,kunba
+
+version machine -- os -memory more 
+
+
+
+
+
+i1---netbanking otp
+i2-- netbanking otp debit card details
+i3---- debit card info
+
+
+
+
+ 
+
+
