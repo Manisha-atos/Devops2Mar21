@@ -1,0 +1,91 @@
+Devops Basic
+3 days --75% 
+assessment 10 Days.
+attendance --same days
+.basics devops
+.git & github
+.maven
+.selenium
+.jenkins
+.
+
+Day 1:
+SDLC  ---seque
+change mgt difficult
+deliver   late 
+
+agile model
+requ
+strories
+1,2 week small module --- iterative 
+online shopping portal
+net banking payment  2 weeks otp facility ,grid 
+i1 ----
+i2 ---- running module  --change mgmt
+i3 ---- 
+
+continuous development --
+
+dev test support team
+
+net banking --- op  ws
+credit card  ws   micr  .net
+gpay  linux spring boot 
+paytm ws 10 angular 
+
+
+oper ---- stability ,manual 
+
+
+dev --- deployed 
+
+
+devops came into picture deploy , monitor 
+
+how ???
+
+dev   ops
+1. source code management --- 
+verion ---  online payment git 
+zip , central server --- back up of , 
+remote repository  github , onedrive 
+2. intergarted , build (jar/war ) --- maven , ant,gradle 
+3. conti  testing -test envio   UAT 
+4. cont 
+
+virtual machine ---OS memory is more 
+container ready 
+
+ansible ,puppet
+docker , kurbe
+
+monitor  -nagios 
+git installation
+github repos
+git lab and git hub
+
+-----------------------------------------------------------------------------
+Day 2:
+git init
+git status
+git log
+git add .
+git commit 
+git commit -m "msg"
+git version
+git config --global user.name "Manisha Mane"
+git config --global user.email  "pimplemp@rediffmail.com"
+git remote -v
+
+working direc(test)----add(staging)--commit(LR)---push(github)  private/public 
+
+
+
+
+
+
+
+
+
+
+
