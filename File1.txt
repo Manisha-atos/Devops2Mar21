@@ -8,3 +8,8 @@ C
 C++
 c#
 Java
+
+===============
+Oracle 
+SQL Server
+MySql
