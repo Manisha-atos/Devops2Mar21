@@ -1,0 +1,211 @@
+Intro git
+local repo
+diff b/w VCS vs DVCS
+centralized repo
+
+git commands
+	add, help,restore,reset,diff,commit,push,commit,log,reflog,status,  rm command
+
+attendance link:
+======================
+https://atos365-my.sharepoint.com/:x:/g/personal/kathiresan_natarajan_atos_net/ETf5azYVLKhHmaTOOGk3ZzEB3H-fhg3KIqJwMl_tqrOKZw?e=3A0CQL
+
+GIT Training: DVCS - dsitrbuted version control system
+
+version: project in progress
+	
+control: 
+
+system:	 s/w
+
+
+centralized version control system - centralized server
+
+DB
+repository
+
+
+E:\>cd gitmarch2021
+
+E:\gitmarch2021>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        b.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\gitmarch2021>git log
+commit ea40aa99d9147d07d37888eed728e11174a72eef (HEAD -> master)
+Author: knatarajan <natararajan1959@gmail.com>
+Date:   Fri Mar 5 16:49:38 2021 +0530
+
+    a modified - second commit
+
+commit 73ed23a16f8628d89c2d74343027d3b0839e097f
+Author: knatarajan <natararajan1959@gmail.com>
+Date:   Fri Mar 5 16:48:17 2021 +0530
+
+    first commit
+
+E:\gitmarch2021>git reflog
+ea40aa9 (HEAD -> master) HEAD@{0}: commit: a modified - second commit
+73ed23a HEAD@{1}: commit (initial): first commit
+
+
+
+======================================================================
+E:\>md gitex
+
+E:\>cd gitex
+
+E:\gitex>git init
+Initialized empty Git repository in E:/gitex/.git/
+
+E:\gitex>echo file1 > a.txt
+
+E:\gitex>echo file2 > b.txt
+
+E:\gitex>echo file2 > ex.java
+
+E:\gitex>echo file2 > ex1.java
+
+E:\gitex>echo file2 > ex2.java
+
+E:\gitex>git add *.java
+
+E:\gitex>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ex.java
+        new file:   ex1.java
+        new file:   ex2.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        a.txt
+        b.txt
+
+
+E:\gitex>echo file2 > ex3.java
+
+E:\gitex>echo file2 > ex4.java
+
+E:\gitex>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ex.java
+        new file:   ex1.java
+        new file:   ex2.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        a.txt
+        b.txt
+        ex3.java
+        ex4.java
+
+
+E:\gitex>git add .
+
+E:\gitex>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.txt
+        new file:   ex.java
+        new file:   ex1.java
+        new file:   ex2.java
+        new file:   ex3.java
+        new file:   ex4.java
+
+================================================
+
+E:\gitex>git log
+commit 3d64ffee955bea4b55c025a855ebdd37c3e51acc (HEAD -> master)
+Author: knatarajan <natararajan1959@gmail.com>
+Date:   Fri Mar 5 16:58:54 2021 +0530
+
+    first commit
+
+E:\gitex>git reflog
+3d64ffe (HEAD -> master) HEAD@{0}: commit (initial): first commit
+
+E:\gitex>echo file2 > c.txt
+
+E:\gitex>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        c.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\gitex>git add c.txt
+
+E:\gitex>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   c.txt
+
+
+E:\gitex>c.txt
+
+E:\gitex>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   c.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   c.txt
+
+
+E:\gitex>git restore c.txt
+
+E:\gitex>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   c.txt
+
+==================================================
+
+
+git in aws :
+=================
+
+1. https://cloudaffaire.com/how-to-install-git-in-aws-ec2-instance/
+2. https://docs.aws.amazon.com/codedeploy/latest/userguide/integrations-partners-github.html
+3. https://medium.com/digitalcrafts/how-to-set-up-an-ec2-instance-with-github-node-js-and-postgresql-e363cb771826
+4. https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started.html
+5. https://docs.aws.amazon.com/codedeploy/latest/userguide/tutorials-github-create-github-repository.html
+6. https://aws.amazon.com/premiumsupport/knowledge-center/codecommit-git-repositories-ec2/
+7. https://gist.github.com/matthewoden/b29353e266c554e04be8ea2058bcc2a0
+8. https://www.slideshare.net/devopsjourney/setting-up-git-on-aws-ec2
+
+
+git with eclipse:
+====================
+
+1. https://www.vogella.com/tutorials/EclipseGit/article.html
+2. https://www.eclipse.org/community/training/webinars/100713_Egit_Webinar.pdf
+3. https://www.youtube.com/watch?v=LPT7v69guVY
+4. https://www.youtube.com/watch?v=D73L9YlBlP8
+5. https://www.youtube.com/watch?v=HuhJ22oHyfc
+6. https://www.youtube.com/watch?v=LPT7v69guVY
