@@ -1,0 +1,81 @@
+Day 1:
+Devops 
+what is devops
+
+agile method  short time production enviroment .
+devops stack
+plan
+code
+continu development git , github
+
+
+executable .exe, .jar/war
+maven /ant /gradle 
+compile, validation,unit, integ,executable
+
+mvn clean POM 
+mvn complie ---.class
+mvn test ---- testing 
+mvn install/package conti build
+
+
+testing con  testing 
+automation testng,NUnit,JUnit,selenium , cucumber 
+
+
+con deployment
+===========================================
+staging area, local repo, remote repo
+add , commit, push ,pull  
+
+github  how to create barnch ?
+how to delet branch ? 
+git download -- install 
+
+git init
+git add .
+git commit 
+git status
+git log
+git show
+git clone
+git push remote
+git pull remote
+git fetch
+git diff
+git config --list
+git config --global user.name "Manisha Mane"
+git config --global user.email  "pimplemp@rediffmail.com"
+git revert
+git reset 
+versioning 
+git brach
+git branch <br>
+git checkout
+git ranch -d/-D 
+git rename
+git checkout -b feature/new-feature
+git merge
+git stash
+git ignore  
+git tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+day 2:
+
+day 3:
+
+
